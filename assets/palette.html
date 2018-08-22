@@ -1,0 +1,106 @@
+<head>
+	<!-- 	Código desenvolvido por Philippe Henrique
+			Nível: Básico - intermediário -->
+	<title>Palette</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(window).ready(() => {
+			$(document).on("click", ".block input", function() {
+				$(this).select();
+			});
+
+			$(".block").each((i, el) => {
+				var colorRGB = $(el).css('background-color');
+				var colorHEX = rgb2hex($(el).css('background-color'));
+				var contentHEX = "<input type='text' value='" + colorHEX + "'>";
+				var contentRGB = "<input type='text' value='" + colorRGB + "'>";
+				$(el).append(contentHEX);
+				$(el).append(contentRGB);
+			});
+		});
+
+		function rgb2hex(orig){
+ 			var rgb = orig.replace(/\s/g,'').match(/^rgba?\((\d+),(\d+),(\d+)/i);
+ 			return (rgb && rgb.length === 4) ? "#" +
+  			("0" + parseInt(rgb[1],10).toString(16)).slice(-2) +
+  			("0" + parseInt(rgb[2],10).toString(16)).slice(-2) +
+  			("0" + parseInt(rgb[3],10).toString(16)).slice(-2) : orig;
+		}
+	</script>
+</head>
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#palette {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#palette .block {
+	margin: 3px;
+	height: 100px;
+	width: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	display: inline-block;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+#palette .block input {
+	color: #fff;
+	text-shadow: 0 2px 3px rgba(0,0,0,.5);
+	padding: 5px 0;
+	border: none;
+	width: 100%;
+	display: block;
+	background: rgba(0,0,0,.5);
+	text-align: center;
+}
+
+</style> <!-- Style palette -->
+
+<div id="palette">
+	<div class="block" style="background: #d7e5e8"></div>
+
+	<div class="block" style="background: #b6cfd3"></div>
+
+	<div class="block" style="background: #1bbf51"></div>
+
+	<div class="block" style="background: #148f3d"></div>
+
+	<div class="block" style="background: #abdc26"></div>
+
+	<div class="block" style="background: #0d5f28"></div>
+</div>
+
+<div id="palette">
+	<div class="block" style="background: #b24800"></div>
+
+	<div class="block" style="background: #f97407"></div>
+
+	<div class="block" style="background: #5c0000"></div>
+
+	<div class="block" style="background: #b70c10"></div>
+
+	<div class="block" style="background: #f7931c"></div>
+
+	<div class="block" style="background: #d37200"></div>
+
+	<div class="block" style="background: #e6b630"></div>
+</div>

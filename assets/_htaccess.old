@@ -1,0 +1,6 @@
+php_flag output_buffering on
+php_value upload_max_filesize 524288000
+
+# HTID:3703923: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:3703923:

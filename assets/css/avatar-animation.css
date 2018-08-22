@@ -1,0 +1,201 @@
+.avatar-header {
+	background-image: url("../images/2014hw03.png");
+}
+
+.avatar-footer-dj-1 {
+	background-image: url("../images/zoo-s03dj.png");
+}
+
+.avatar-footer-dj-2 {
+	background-image: url("../images/2014hw04dj.png");
+}
+
+.avatar-footer-dj-3 {
+	background-image: url("../images/hiphop-s01dj.png");
+}
+
+.avatar-footer-dj-4 {
+	background-image: url("../images/zoo-s04dj.png");
+}
+
+.avatar-footer-dj-5 {
+	background-image: url("../images/80s11dj.png");
+}
+
+.avatar-loading {
+	background-image: url("../images/dragon-e04.png");
+}
+
+.avatardj {
+	background-image: url("../images/2014hw03dj.png");
+}
+
+.animate-avatar {
+	-webkit-animation: avatarAnim 1.65s infinite step-start;
+	        animation: avatarAnim 1.65s infinite step-start;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+
+.animate-avatar-dj {
+	-webkit-animation: avatarAnimDj 1.65s infinite step-start;
+	        animation: avatarAnimDj 1.65s infinite step-start;
+	width: 170px;
+	height: 220px;
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	display: inline-block;
+}
+
+.animate-avatar-300-150 {
+	-webkit-animation: avatarAnimDrag 1.65s infinite step-start;
+	        animation: avatarAnimDrag 1.65s infinite step-start;
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+}
+
+
+@-webkit-keyframes avatarAnim {
+	0%   {background-position-x: 0px;}
+	5%   {background-position-x: 150px;}
+	10%  {background-position-x: 300px;}
+	15%  {background-position-x: 450px;}
+	20%  {background-position-x: 600px;}
+	25%  {background-position-x: 750px;}
+	30%  {background-position-x: 900px;}
+	35%  {background-position-x: 1050px;}
+	40%  {background-position-x: 1200px;}
+	45%  {background-position-x: 1350px;}
+	50%  {background-position-x: 1500px;}
+	55%  {background-position-x: 1650px;}
+	60%  {background-position-x: 1800px;}
+	65%  {background-position-x: 1950px;}
+	70%  {background-position-x: 2100px;}
+	75%  {background-position-x: 2250px;}
+	80%  {background-position-x: 2400px;}
+	85%  {background-position-x: 2550px;}
+	90%  {background-position-x: 2700px;}
+	95%  {background-position-x: 2850px;}
+	100% {background-position-x: 3000px;}
+}
+
+
+@keyframes avatarAnim {
+	0%   {background-position-x: 0px;}
+	5%   {background-position-x: 150px;}
+	10%  {background-position-x: 300px;}
+	15%  {background-position-x: 450px;}
+	20%  {background-position-x: 600px;}
+	25%  {background-position-x: 750px;}
+	30%  {background-position-x: 900px;}
+	35%  {background-position-x: 1050px;}
+	40%  {background-position-x: 1200px;}
+	45%  {background-position-x: 1350px;}
+	50%  {background-position-x: 1500px;}
+	55%  {background-position-x: 1650px;}
+	60%  {background-position-x: 1800px;}
+	65%  {background-position-x: 1950px;}
+	70%  {background-position-x: 2100px;}
+	75%  {background-position-x: 2250px;}
+	80%  {background-position-x: 2400px;}
+	85%  {background-position-x: 2550px;}
+	90%  {background-position-x: 2700px;}
+	95%  {background-position-x: 2850px;}
+	100% {background-position-x: 3000px;}
+}
+
+@-webkit-keyframes avatarAnimDj {
+	0%   {background-position-x: 0px;}
+	5%   {background-position-x: 170px;}
+	10%  {background-position-x: 340px;}
+	15%  {background-position-x: 510px;}
+	20%  {background-position-x: 680px;}
+	25%  {background-position-x: 850px;}
+	30%  {background-position-x: 1020px;}
+	35%  {background-position-x: 1190px;}
+	40%  {background-position-x: 1360px;}
+	45%  {background-position-x: 1530px;}
+	50%  {background-position-x: 1700px;}
+	55%  {background-position-x: 1870px;}
+	60%  {background-position-x: 2040px;}
+	65%  {background-position-x: 2210px;}
+	70%  {background-position-x: 2380px;}
+	75%  {background-position-x: 2550px;}
+	80%  {background-position-x: 2720px;}
+	85%  {background-position-x: 2890px;}
+	90%  {background-position-x: 3060px;}
+	95%  {background-position-x: 3230px;}
+	100% {background-position-x: 3400px;}
+}
+
+@keyframes avatarAnimDj {
+	0%   {background-position-x: 0px;}
+	5%   {background-position-x: 170px;}
+	10%  {background-position-x: 340px;}
+	15%  {background-position-x: 510px;}
+	20%  {background-position-x: 680px;}
+	25%  {background-position-x: 850px;}
+	30%  {background-position-x: 1020px;}
+	35%  {background-position-x: 1190px;}
+	40%  {background-position-x: 1360px;}
+	45%  {background-position-x: 1530px;}
+	50%  {background-position-x: 1700px;}
+	55%  {background-position-x: 1870px;}
+	60%  {background-position-x: 2040px;}
+	65%  {background-position-x: 2210px;}
+	70%  {background-position-x: 2380px;}
+	75%  {background-position-x: 2550px;}
+	80%  {background-position-x: 2720px;}
+	85%  {background-position-x: 2890px;}
+	90%  {background-position-x: 3060px;}
+	95%  {background-position-x: 3230px;}
+	100% {background-position-x: 3400px;}
+}
+
+
+@-webkit-keyframes avatarAnimDrag {
+	0%   {background-position-x: 1200px;}
+	5%   {background-position-x: 1500px;}
+	10%  {background-position-x: 1800px;}
+	15%  {background-position-x: 2100px;}
+	21%  {background-position-x: 2400px;}
+	26%  {background-position-x: 2700px;}
+	31%  {background-position-x: 3000px;}
+	36%  {background-position-x: 3300px;}
+	42%  {background-position-x: 3600px;}
+	47%  {background-position-x: 3900px;}
+	52%  {background-position-x: 4200px;}
+	57%  {background-position-x: 4500px;}
+	63%  {background-position-x: 4800px;}
+	68%  {background-position-x: 5100px;}
+	73%  {background-position-x: 5400px;}
+	78%  {background-position-x: 5700px;}
+	84%  {background-position-x: 6000px;}
+	89%  {background-position-x: 6300px;}
+	94%  {background-position-x: 6600px;}
+	100% {background-position-x: 6900px;}
+}
+@keyframes avatarAnimDrag {
+	0%   {background-position-x: 1200px;}
+	5%   {background-position-x: 1500px;}
+	10%  {background-position-x: 1800px;}
+	15%  {background-position-x: 2100px;}
+	21%  {background-position-x: 2400px;}
+	26%  {background-position-x: 2700px;}
+	31%  {background-position-x: 3000px;}
+	36%  {background-position-x: 3300px;}
+	42%  {background-position-x: 3600px;}
+	47%  {background-position-x: 3900px;}
+	52%  {background-position-x: 4200px;}
+	57%  {background-position-x: 4500px;}
+	63%  {background-position-x: 4800px;}
+	68%  {background-position-x: 5100px;}
+	73%  {background-position-x: 5400px;}
+	78%  {background-position-x: 5700px;}
+	84%  {background-position-x: 6000px;}
+	89%  {background-position-x: 6300px;}
+	94%  {background-position-x: 6600px;}
+	100% {background-position-x: 6900px;}
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
+@import url("reset.css");
+@import url("animate.css");
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #111;
+}
+::-webkit-scrollbar-thumb {
+    background: #111;
+    border-radius: 25px;
+    -webkit-box-shadow: inset 0 0 5px #f97407;
+            box-shadow: inset 0 0 5px #f97407;
+}
+
+.content { max-width: 1024px; margin: 0 auto; }
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+a { text-decoration: none; display: inline-block; color: #b70c10; }
+img { max-width: 100%; }
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+#back-main {
+	z-index: 500;
+	-webkit-transition: .4s ease;
+	transition: .4s ease;
+	font-size: 5em;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	color: #fff;
+}
+
+#back-main:hover {
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+#proHead {
+	background: rgba(17,17,17,.95);
+	min-height: 100vh;
+	color: #fff;
+	position: relative;
+}
+
+#proHead .background-blur {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+#proHead .content {
+	padding: 3em 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.head-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.head-box h1.name {
+	margin-top: .5em;
+	font-size: 3em;
+}
+
+.head-box p.bio {
+	font-size: 1em;
+	padding: .5em 1em;
+	border-radius: 5px;
+	background: rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 3px #f7931c;
+	        box-shadow: 0 0 3px #f7931c;
+}
+
+.head-box .img-profile {
+	width: 300px;
+	height: 300px;
+}
+
+.head-box .img-profile img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 0 3px #f7931c;
+	        box-shadow: 0 0 0 3px #f7931c;
+}

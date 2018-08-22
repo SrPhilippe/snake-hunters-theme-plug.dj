@@ -1,0 +1,106 @@
+div.menu-item {
+	float: left;
+	display: none;
+	cursor: pointer;
+}
+
+div.menu-item > div {
+	width: 50px;
+	height: 5px;
+	background: #fff;
+	margin: 13px;
+	border-radius: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+	.info-bottom .content {
+		padding: 0 1em;
+	}
+	.modal-login-register .field h3 {
+		display: block;
+		width: 100%;
+		padding: 1em !important;
+	}
+	.modal-login-register .field .response {
+		padding: 1em !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.modal-login-register .row.wrap {
+		display: block !important;
+	}
+	.content {
+		padding: 0 1.5em;
+	}
+	#rodape > .content,
+	#rodape .info-bottom .content {
+		padding: 2em !important;
+	}
+
+	#cabecalho {
+		background-size: cover !important;
+	}
+
+	#cabecalho .content {
+		-webkit-box-pack: center !important;
+		    -ms-flex-pack: center !important;
+		        justify-content: center !important;
+	}
+
+	.avatar-header {
+		margin-bottom: .3em;
+	}
+
+	.header-info-container span {
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+	}
+	#menu {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	#menu > ul {
+		display: none;
+		background: #111;
+	}
+
+	#menu ul li,
+	#menu ul li a,
+	#menu ul li ul,
+	#menu ul li ul li,
+	#menu ul li ul li a {
+		width: 100%;
+	}
+
+	div.menu-item {
+		display: block;
+	}
+
+	.about-us {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+	.about-us img {
+		margin-bottom: 1em;
+	}
+
+	.animate-avatar-dj {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#menu > ul {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
